@@ -4506,10 +4506,10 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-vnc@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/react-vnc/-/react-vnc-0.2.7.tgz#b65b17d8c54358130a63058342c089ff396bb407"
-  integrity sha512-KgXdrqWPw9JCTc7A6Cn+8XB/TPytvdVfjpKWySqoe5iBpE6tXFoVFK1k8+Gf8GX02bSmTRxWXqQ/Vo0VJuGojg==
+react-vnc@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/react-vnc/-/react-vnc-0.2.8.tgz#226cb697a28b67bd76c4e1285a09e26295c432bf"
+  integrity sha512-RfrGHnZtCgcdQ2qEe0ri/1thVNebxrMGOANFLGE0P6ToFiV+xq4TUVtpECQsq1D87dwm2IT+EGmEI+QrZrua/g==
   dependencies:
     "@testing-library/jest-dom" "^5.11.10"
     "@testing-library/react" "^11.2.6"
