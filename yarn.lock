@@ -3539,10 +3539,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-vnc@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/react-vnc/-/react-vnc-0.4.0.tgz#ba76c6cb164cd06ba457548c68b863d60b3aede4"
-  integrity sha512-QoHZksid5pWNUXb8Vp0TbkqistIJl4x89MRpZNrGFIcNs0lw8sQUOWKy4jz2sbYK6upS/F/9mV+vjmHiFnubOA==
+react-vnc@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/react-vnc/-/react-vnc-0.5.0.tgz#82162689e05c75df9ec07a9b0a6fd4c2b2eb3971"
+  integrity sha512-DMxgQHKlMFRRGmzZFzJtvO7pj3blfElOx+pN2c5YI88p1k+TZW4JzvJvnyzeHe9UIIShAl7V87kaLrxm25U9vA==
 
 react@^17.0.2:
   version "17.0.2"
