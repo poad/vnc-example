@@ -4,20 +4,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "analyze": "ANALYZE=true next build",
     "lint": "next lint",
-    "all": "yarn lint --fix && yarn build"
+    "all": "yarn lint --fix && yarn build && yarn analyze"
   },
   "dependencies": {
     "@reach/portal": "*",
     "@types/node": "*",
     "@types/react": "*",
+    "autoprefixer": "*",
     "next": "*",
+    "postcss": "*",
     "react": "*",
     "react-dom": "*",
     "react-vnc": "*",
-    "tailwindcss": "*"
+    "tailwindcss": "*",
+    "web-vitals": "*"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
     "autoprefixer": "*",
