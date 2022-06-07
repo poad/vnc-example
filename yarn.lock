@@ -524,10 +524,10 @@
     slash "^3.0.0"
     write-file-atomic "^4.0.1"
 
-"@jest/types@^28.1.0":
-  version "28.1.0"
-  resolved "https://registry.yarnpkg.com/@jest/types/-/types-28.1.0.tgz#508327a89976cbf9bd3e1cc74641a29fd7dfd519"
-  integrity sha512-xmEggMPr317MIOjjDoZ4ejCSr9Lpbt/u34+dvc99t7DS8YirW5rwZEhzKPC2BMUFkUhI48qs6qLUSGw5FuL0GA==
+"@jest/types@^28.1.0", "@jest/types@^28.1.1":
+  version "28.1.1"
+  resolved "https://registry.yarnpkg.com/@jest/types/-/types-28.1.1.tgz#d059bbc80e6da6eda9f081f293299348bd78ee0b"
+  integrity sha512-vRXVqSg1VhDnB8bWcmvLzmg0Bt9CRKVgHPXqYwvWMX3TvAjeO+nRuK6+VdTKCtWOvYlmkF/HqNAL/z+N3B53Kw==
   dependencies:
     "@jest/schemas" "^28.0.2"
     "@types/istanbul-lib-coverage" "^2.0.0"
@@ -792,9 +792,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/node@*":
-  version "17.0.39"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.39.tgz#3652d82e2a16b4ea679d5ea3143b816c91b7e113"
-  integrity sha512-JDU3YLlnPK3WDao6/DlXLOgSNpG13ct+CwIO17V8q0/9fWJyeMJJ/VyZ1lv8kDprihvZMydzVwf0tQOqGiY2Nw==
+  version "17.0.40"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.40.tgz#76ee88ae03650de8064a6cf75b8d95f9f4a16090"
+  integrity sha512-UXdBxNGqTMtm7hCwh9HtncFVLrXoqA3oJW30j6XWp5BH/wu3mVeaxo7cq5benFdBw34HB3XDT2TRPI7rXZ+mDg==
 
 "@types/prettier@^2.1.5":
   version "2.6.3"
@@ -2537,17 +2537,17 @@ jest-matcher-utils@^28.1.0:
     pretty-format "^28.1.0"
 
 jest-message-util@^28.1.0:
-  version "28.1.0"
-  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-28.1.0.tgz#7e8f0b9049e948e7b94c2a52731166774ba7d0af"
-  integrity sha512-RpA8mpaJ/B2HphDMiDlrAZdDytkmwFqgjDZovM21F35lHGeUeCvYmm6W+sbQ0ydaLpg5bFAUuWG1cjqOl8vqrw==
+  version "28.1.1"
+  resolved "https://registry.yarnpkg.com/jest-message-util/-/jest-message-util-28.1.1.tgz#60aa0b475cfc08c8a9363ed2fb9108514dd9ab89"
+  integrity sha512-xoDOOT66fLfmTRiqkoLIU7v42mal/SqwDKvfmfiWAdJMSJiU+ozgluO7KbvoAgiwIrrGZsV7viETjc8GNrA/IQ==
   dependencies:
     "@babel/code-frame" "^7.12.13"
-    "@jest/types" "^28.1.0"
+    "@jest/types" "^28.1.1"
     "@types/stack-utils" "^2.0.0"
     chalk "^4.0.0"
     graceful-fs "^4.2.9"
     micromatch "^4.0.4"
-    pretty-format "^28.1.0"
+    pretty-format "^28.1.1"
     slash "^3.0.0"
     stack-utils "^2.0.3"
 
@@ -3284,10 +3284,10 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-pretty-format@^28.1.0:
-  version "28.1.0"
-  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-28.1.0.tgz#8f5836c6a0dfdb834730577ec18029052191af55"
-  integrity sha512-79Z4wWOYCdvQkEoEuSlBhHJqWeZ8D8YRPiPctJFCtvuaClGpiwiQYSCUOE6IEKUbbFukKOTFIUAXE8N4EQTo1Q==
+pretty-format@^28.1.0, pretty-format@^28.1.1:
+  version "28.1.1"
+  resolved "https://registry.yarnpkg.com/pretty-format/-/pretty-format-28.1.1.tgz#f731530394e0f7fcd95aba6b43c50e02d86b95cb"
+  integrity sha512-wwJbVTGFHeucr5Jw2bQ9P+VYHyLdAqedFLEkdQUVaBF/eiidDwH5OpilINq4mEfhbCjLnirt6HTTDhv1HaTIQw==
   dependencies:
     "@jest/schemas" "^28.0.2"
     ansi-regex "^5.0.1"
