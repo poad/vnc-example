@@ -3451,9 +3451,9 @@ react-is@^18.0.0:
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
 react-vnc@*:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/react-vnc/-/react-vnc-0.5.1.tgz#027c127d4ddde718743759e4012bf43c973c940f"
-  integrity sha512-m1yhVKuTZCvdT7ivA4C++wepl6Tm3DYgFZJuk2qWluGgT2xaGQf1gGosNxLTglqgdaSgGTg0BRW172juMRcgAw==
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/react-vnc/-/react-vnc-0.5.2.tgz#064d17707f15024aca059c7ff0eaab0c2d98a4f4"
+  integrity sha512-hNVT/FK4688pZe8vU49lmunH0TX6yE+x4f6HHTINck6IlocvF/ekYejB932v/eTcdNJfDN184RcN1UOR3rdegg==
 
 react@*:
   version "18.2.0"
