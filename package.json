@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "echo \"no action in script. Please run yarn build (includes next export)\"",
     "start": "next start",
     "analyze": "ANALYZE=true next build",
     "lint": "next lint",
@@ -14,7 +15,7 @@
     "@types/node": "*",
     "@types/react": "*",
     "autoprefixer": "*",
-    "next": "*",
+    "next": "^12",
     "postcss": "*",
     "react": "*",
     "react-dom": "*",
@@ -23,7 +24,7 @@
     "web-vitals": "*"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "*",
+    "@next/bundle-analyzer": "^12",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
     "autoprefixer": "*",
@@ -31,7 +32,7 @@
     "eslint-config-airbnb-base": "*",
     "eslint-config-airbnb-typescript": "*",
     "eslint-config-import": "*",
-    "eslint-config-next": "*",
+    "eslint-config-next": "^12",
     "eslint-import-resolver-typescript": "*",
     "eslint-plugin-flowtype": "*",
     "eslint-plugin-import": "*",
