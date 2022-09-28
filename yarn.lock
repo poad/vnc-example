@@ -2642,7 +2642,7 @@ jest-config@^29.0.3:
     slash "^3.0.0"
     strip-json-comments "^3.1.1"
 
-jest-diff@^29.0.3, jest-diff@^29.1.0:
+jest-diff@^29.1.0:
   version "29.1.0"
   resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-29.1.0.tgz#952639cd73fcf4d34173e2d98a0cd1c20c71ba88"
   integrity sha512-ZJyWG30jpVHwxLs8xxR1so4tz6lFARNztnFlxssFpQdakaW0isSx9rAKs/6aQUKQDZ/DgSpY6HjUGLO9xkNdRw==
@@ -2793,12 +2793,12 @@ jest-regex-util@^29.0.0:
   integrity sha512-BV7VW7Sy0fInHWN93MMPtlClweYv2qrSCwfeFWmpribGZtQPWNvRSq9XOVgOEjU1iBGRKXUZil0o2AH7Iy9Lug==
 
 jest-resolve-dependencies@^29.0.3:
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-29.0.3.tgz#f23a54295efc6374b86b198cf8efed5606d6b762"
-  integrity sha512-KzuBnXqNvbuCdoJpv8EanbIGObk7vUBNt/PwQPPx2aMhlv/jaXpUJsqWYRpP/0a50faMBY7WFFP8S3/CCzwfDw==
+  version "29.1.1"
+  resolved "https://registry.yarnpkg.com/jest-resolve-dependencies/-/jest-resolve-dependencies-29.1.1.tgz#03104a866fb133cffd8a6fe7fc198b0de9a17232"
+  integrity sha512-AMRTJyiK8caRXq3pa9i4oXX6yH+am5v0HwCUq1yk9lxI3ARihyT2OfEySJJo3ER7xpxf3b6isfp1sO6PQY3N0Q==
   dependencies:
     jest-regex-util "^29.0.0"
-    jest-snapshot "^29.0.3"
+    jest-snapshot "^29.1.0"
 
 jest-resolve@^29.0.3, jest-resolve@^29.1.0:
   version "29.1.0"
@@ -2898,37 +2898,7 @@ jest-runtime@^29.1.1:
     slash "^3.0.0"
     strip-bom "^4.0.0"
 
-jest-snapshot@^29.0.3:
-  version "29.0.3"
-  resolved "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-29.0.3.tgz#0a024706986a915a6eefae74d7343069d2fc8eef"
-  integrity sha512-52q6JChm04U3deq+mkQ7R/7uy7YyfVIrebMi6ZkBoDJ85yEjm/sJwdr1P0LOIEHmpyLlXrxy3QP0Zf5J2kj0ew==
-  dependencies:
-    "@babel/core" "^7.11.6"
-    "@babel/generator" "^7.7.2"
-    "@babel/plugin-syntax-jsx" "^7.7.2"
-    "@babel/plugin-syntax-typescript" "^7.7.2"
-    "@babel/traverse" "^7.7.2"
-    "@babel/types" "^7.3.3"
-    "@jest/expect-utils" "^29.0.3"
-    "@jest/transform" "^29.0.3"
-    "@jest/types" "^29.0.3"
-    "@types/babel__traverse" "^7.0.6"
-    "@types/prettier" "^2.1.5"
-    babel-preset-current-node-syntax "^1.0.0"
-    chalk "^4.0.0"
-    expect "^29.0.3"
-    graceful-fs "^4.2.9"
-    jest-diff "^29.0.3"
-    jest-get-type "^29.0.0"
-    jest-haste-map "^29.0.3"
-    jest-matcher-utils "^29.0.3"
-    jest-message-util "^29.0.3"
-    jest-util "^29.0.3"
-    natural-compare "^1.4.0"
-    pretty-format "^29.0.3"
-    semver "^7.3.5"
-
-jest-snapshot@^29.1.0:
+jest-snapshot@^29.0.3, jest-snapshot@^29.1.0:
   version "29.1.0"
   resolved "https://registry.yarnpkg.com/jest-snapshot/-/jest-snapshot-29.1.0.tgz#9da20c1c504a41e79abcbfecced090325b3cdba1"
   integrity sha512-nHZoA+hpbFlkyV8uLoLJQ/80DLi3c6a5zeELgfSZ5bZj+eljqULr79KBQakp5xyH3onezf4k+K+2/Blk5/1O+g==
