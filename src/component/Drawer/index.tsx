@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 
 /* You'll need to install @reach/portal which simplify creating portal*/
-import Portal from '@reach/portal';
+import { Portal } from '@reach/portal';
 
 const style = {
   body: 'flex-shrink flex-grow p-4',
