@@ -7,7 +7,6 @@ const analyzer = withBundleAnalyzer({
 const config = analyzer(
   {
     reactStrictMode: true,
-    swcLoader: true,
     swcMinify: true
   }
 );
