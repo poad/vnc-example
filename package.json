@@ -14,6 +14,7 @@
     "@types/node": "*",
     "@types/react": "*",
     "autoprefixer": "*",
+    "json5": ">=2.2.2",
     "next": "^13",
     "postcss": "*",
     "react": "*",
