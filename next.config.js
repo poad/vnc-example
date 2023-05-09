@@ -4,11 +4,10 @@ const analyzer = withBundleAnalyzer({
 });
 
 /** @type {import('next').NextConfig} */
-const config = analyzer(
-  {
-    reactStrictMode: true,
-    swcMinify: true
-  }
-);
+const config = {
+  output: 'export',
+  reactStrictMode: true,
+  swcMinify: true
+};
 
-module.exports = config;
+module.exports = analyzer(config);

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { VncScreen } from 'react-vnc';
 
 interface VncClientProps {
@@ -6,9 +6,9 @@ interface VncClientProps {
   url: string;
 }
 
-const VncClient: React.FunctionComponent<VncClientProps> = (
-  props,
-): JSX.Element => {
+function VncClient(
+  props: VncClientProps,
+) {
   const [url, setUrl] = useState('');
 
   useEffect(() => {

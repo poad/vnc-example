@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { ReactNode, useEffect, useRef } from 'react';
 
 /* You'll need to install @reach/portal which simplify creating portal*/
 import { Portal } from '@reach/portal';
@@ -20,15 +20,15 @@ const style = {
   overlay: 'fixed top-0 left-0 z-30 w-screen h-screen bg-black opacity-50',
 };
 
-const Drawer = ({
+function Drawer({
   children,
   isOpen,
   toggle,
 }: {
-  children: React.ReactElement | React.ReactElement[];
+  children: ReactNode;
   isOpen: boolean;
   toggle: (open: boolean | undefined) => void;
-}): JSX.Element => {
+}) {
   const ref = useRef<HTMLDivElement | null>(null);
 
   // close modal when you click outside the dialog
