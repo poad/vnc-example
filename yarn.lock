@@ -49,11 +49,11 @@
     semver "^6.3.0"
 
 "@babel/generator@^7.21.5", "@babel/generator@^7.7.2":
-  version "7.21.9"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.21.9.tgz#3a1b706e07d836e204aee0650e8ee878d3aaa241"
-  integrity sha512-F3fZga2uv09wFdEjEQIJxXALXfz0+JaOb7SabvVMmjHxeVTuGW8wgE8Vp1Hd7O+zMTYtcfEISGRzPkeiaPPsvg==
+  version "7.22.0"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.22.0.tgz#59241bf17ab7a9b0f7c339e16355366ef2a1a6e2"
+  integrity sha512-tyzR0OsH88AelgukhL2rbEUCLKBGmy2G9Th/5vpyOt0zf44Be61kvIQXjCwTSX8t+qJ/vMwZfhK6mPdrMLZXRg==
   dependencies:
-    "@babel/types" "^7.21.5"
+    "@babel/types" "^7.22.0"
     "@jridgewell/gen-mapping" "^0.3.2"
     "@jridgewell/trace-mapping" "^0.3.17"
     jsesc "^2.5.1"
@@ -301,6 +301,15 @@
   version "7.21.5"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.21.5.tgz#18dfbd47c39d3904d5db3d3dc2cc80bedb60e5b6"
   integrity sha512-m4AfNvVF2mVC/F7fDEdH2El3HzUg9It/XsCxZiOTTA3m3qYfcSVSbTfM6Q9xG+hYDniZssYhlXKKUMD5m8tF4Q==
+  dependencies:
+    "@babel/helper-string-parser" "^7.21.5"
+    "@babel/helper-validator-identifier" "^7.19.1"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@^7.22.0":
+  version "7.22.0"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.22.0.tgz#b7383f76a5fedf967c57c1f940066fb31ca3e97a"
+  integrity sha512-NtXlm3f6cNWIv003cETdlz9sss0VMNtplyatFohxWPz90AbwuhCbHbQopkGis6bG1vOunDLN0FF/4Uv5i8LFZQ==
   dependencies:
     "@babel/helper-string-parser" "^7.21.5"
     "@babel/helper-validator-identifier" "^7.19.1"
