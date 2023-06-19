@@ -35,14 +35,22 @@ jobs:
           owner: ${{ github.repository_owner }}
           merge_method: SQUASH
 
-  yarn-base-test:
+  pnpm-base-test:
     strategy:
       matrix:
-        node-version: [16.x, 18.x, 20.x]
+        node-version: [18.x, 20.x]
 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
+        with:
+          version: 8.6.2
+          run_install: |
+            - recursive: true
+              args: [--no-frozen-lockfile, --strict-peer-dependencies]
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
@@ -54,4 +62,4 @@ jobs:
           NEXT_PUBLIC_AUTH0_DOMAIN: test
           NEXT_PUBLIC_AUTH0_CLIENT_ID: test
           NEXT_PUBLIC_CALLBACK_URL: http://localhost:3000
-        run: yarn install && yarn build
+        run: pnpm build
