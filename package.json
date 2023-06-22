@@ -24,7 +24,7 @@
     "web-vitals": "^3.3.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.4.6",
+    "@next/bundle-analyzer": "^13.4.7",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
     "autoprefixer": "*",
@@ -32,7 +32,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^13.4.6",
+    "eslint-config-next": "^13.4.7",
     "eslint-import-resolver-typescript": "^3.5.5",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.27.5",
