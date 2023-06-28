@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.4.7",
-    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.0",
     "autoprefixer": "*",
     "eslint": "^8.43.0",
