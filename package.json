@@ -45,7 +45,7 @@
     "next-transpile-modules": "^10.0.0",
     "postcss": "*",
     "swc-loader": "^0.2.3",
-    "ts-jest": "^29.1.0",
+    "ts-jest": "^29.1.1",
     "typescript": "^5.1.6"
   },
   "resolutions": {
