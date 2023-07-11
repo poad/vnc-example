@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@reach/portal": "^0.18.0",
-    "@types/node": "^20.4.0",
+    "@types/node": "^20.4.1",
     "@types/react": "^18.2.14",
     "autoprefixer": "^10.4.14",
     "json5": "^2.2.3",
@@ -21,12 +21,12 @@
     "react-dom": "^18.2.0",
     "react-vnc": "^0.5.11",
     "tailwindcss": "^3.3.2",
-    "web-vitals": "^3.3.2"
+    "web-vitals": "^3.4.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.4.9",
-    "@typescript-eslint/eslint-plugin": "^5.61.0",
-    "@typescript-eslint/parser": "^5.61.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "*",
     "eslint": "^8.44.0",
     "eslint-config-airbnb-base": "^15.0.0",
