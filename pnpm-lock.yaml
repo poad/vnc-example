@@ -21,7 +21,7 @@ dependencies:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.25)
   json5:
-    specifier: ^2.2.3
+    specifier: '>=2.2.2'
     version: 2.2.3
   next:
     specifier: ^13.4.9
@@ -36,8 +36,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-vnc:
-    specifier: ^0.5.11
-    version: 0.5.11(react-dom@18.2.0)(react-scripts@5.0.1)(react@18.2.0)
+    specifier: ^0.5.12
+    version: 0.5.12(react-dom@18.2.0)(react-scripts@5.0.1)(react@18.2.0)
   tailwindcss:
     specifier: ^3.3.2
     version: 3.3.2
@@ -9303,8 +9303,8 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /react-vnc@0.5.11(react-dom@18.2.0)(react-scripts@5.0.1)(react@18.2.0):
-    resolution: {integrity: sha512-KC49TN/1kf6sUBAlxrANh2P91Ak47gvO+/NagU1h/IMQ3bVH0g2KkQLSQn32aPk8Ji0P9gDArCVzgd08MNKi3g==}
+  /react-vnc@0.5.12(react-dom@18.2.0)(react-scripts@5.0.1)(react@18.2.0):
+    resolution: {integrity: sha512-MJSjMM6csIf0RE/8pnVUpPVIaXwZzVxc/JIIPZ0YM9W006JucEMBVL6XEj7gE0SlMRJrYLSCTll5zHiO4kcn4A==}
     peerDependencies:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
