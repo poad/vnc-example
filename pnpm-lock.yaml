@@ -21,7 +21,7 @@ dependencies:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.25)
   json5:
-    specifier: ^2.2.3
+    specifier: '>=2.2.2'
     version: 2.2.3
   next:
     specifier: ^13.4.9
@@ -241,16 +241,16 @@ packages:
       - supports-color
     dev: false
 
-  /@babel/helper-create-regexp-features-plugin@7.22.6(@babel/core@7.22.8):
-    resolution: {integrity: sha512-nBookhLKxAWo/TUCmhnaEJyLz2dekjQvv5SRpE9epWQBcpedWLKt8aZdsuT9XV5ovzR3fENLjRXVT0GsSlGGhA==}
+  /@babel/helper-create-regexp-features-plugin@7.22.9(@babel/core@7.22.8):
+    resolution: {integrity: sha512-+svjVa/tFwsNSG4NEy1h85+HQ5imbT92Q5/bgtS7P0GTQlP8WuFdqsiABmQouhiFGyV66oGxZFpeYHza1rNsKw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-annotate-as-pure': 7.22.5
-      '@nicolo-ribaudo/semver-v6': 6.3.3
       regexpu-core: 5.3.2
+      semver: 6.3.1
     dev: false
 
   /@babel/helper-define-polyfill-provider@0.4.1(@babel/core@7.22.8):
@@ -550,7 +550,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-regexp-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-regexp-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
     dev: false
 
@@ -753,7 +753,7 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-regexp-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-regexp-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
     dev: false
 
@@ -891,7 +891,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-regexp-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-regexp-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
     dev: false
 
@@ -1075,7 +1075,7 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-regexp-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-regexp-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
     dev: false
 
@@ -1384,7 +1384,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-regexp-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-regexp-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
     dev: false
 
@@ -1395,7 +1395,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-regexp-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-regexp-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
     dev: false
 
@@ -1406,7 +1406,7 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.22.8
-      '@babel/helper-create-regexp-features-plugin': 7.22.6(@babel/core@7.22.8)
+      '@babel/helper-create-regexp-features-plugin': 7.22.9(@babel/core@7.22.8)
       '@babel/helper-plugin-utils': 7.22.5
     dev: false
 
