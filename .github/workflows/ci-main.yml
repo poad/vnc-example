@@ -1,5 +1,5 @@
 name: Build and Test
- 
+
 on:
   push:
     branches:
@@ -33,7 +33,6 @@ jobs:
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 8.6.2
           run_install: |
             - recursive: true
               args: [--no-frozen-lockfile, --strict-peer-dependencies]
@@ -45,7 +44,6 @@ jobs:
           check-latest: true
 
       - name: Build
-        if: matrix.targets.lint == true
         env:
           NEXT_PUBLIC_AUTH0_DOMAIN: test
           NEXT_PUBLIC_AUTH0_CLIENT_ID: test
