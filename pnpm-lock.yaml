@@ -5002,7 +5002,7 @@ packages:
       eslint-plugin-jsx-a11y: 6.7.1(eslint@8.46.0)
       eslint-plugin-react: 7.33.1(eslint@8.46.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.46.0)
-      eslint-plugin-testing-library: 5.11.0(eslint@8.46.0)(typescript@5.1.6)
+      eslint-plugin-testing-library: 5.11.1(eslint@8.46.0)(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
       - '@babel/plugin-syntax-flow'
@@ -5231,8 +5231,8 @@ packages:
       semver: 6.3.1
       string.prototype.matchall: 4.0.8
 
-  /eslint-plugin-testing-library@5.11.0(eslint@8.46.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-ELY7Gefo+61OfXKlQeXNIDVVLPcvKTeiQOoMZG9TeuWa7Ln4dUNRv8JdRWBQI9Mbb427XGlVB1aa1QPZxBJM8Q==}
+  /eslint-plugin-testing-library@5.11.1(eslint@8.46.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-5eX9e1Kc2PqVRed3taaLnAAqPZGEX75C+M/rXzUAI3wIg/ZxzUm1OVAwfe/O+vE+6YXOLetSe9g5GKD2ecXipw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
     peerDependencies:
       eslint: ^7.5.0 || ^8.0.0
