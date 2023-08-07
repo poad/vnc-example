@@ -24,7 +24,7 @@
     "web-vitals": "^3.4.0"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^13.4.12",
+    "@next/bundle-analyzer": "^13.4.13",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "autoprefixer": "*",
