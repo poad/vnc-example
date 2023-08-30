@@ -15,7 +15,7 @@
     "@types/react": "^18.2.21",
     "autoprefixer": "^10.4.15",
     "next": "^13.4.19",
-    "postcss": "^8.4.28",
+    "postcss": "^8.4.29",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-vnc": "^0.5.14",
@@ -41,7 +41,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "jest": "^29.6.4",
     "next-transpile-modules": "^10.0.1",
-    "postcss": "^8.2.47",
+    "postcss": "^8.4.29",
     "swc-loader": "^0.2.3",
     "ts-jest": "^29.1.1",
     "typescript": "^5.1.6"
