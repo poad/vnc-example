@@ -30,8 +30,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-vnc:
-    specifier: ^0.5.15
-    version: 0.5.15(react-dom@18.2.0)(react-scripts@5.0.1)(react@18.2.0)
+    specifier: ^0.5.16
+    version: 0.5.16(react-dom@18.2.0)(react-scripts@5.0.1)(react@18.2.0)
   tailwindcss:
     specifier: ^3.3.3
     version: 3.3.3
@@ -10014,8 +10014,8 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /react-vnc@0.5.15(react-dom@18.2.0)(react-scripts@5.0.1)(react@18.2.0):
-    resolution: {integrity: sha512-xU1oSpDM5bZUKeUgwvvOJkXFgpjJw0Og+7gR4YK4/f/uEwAxoPCs5v97pjXeYHmsHT5GLczZX559pacKmg8isQ==}
+  /react-vnc@0.5.16(react-dom@18.2.0)(react-scripts@5.0.1)(react@18.2.0):
+    resolution: {integrity: sha512-rM2VmY03cwbwl9v4y6DHjXGqLjHbZGBJxgG1P74QzrjagVG3WkH5+K1zgDgYK4x0Mjk/80WztWX56Q8lZ9F3Cg==}
     peerDependencies:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
