@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@reach/portal": "^0.18.0",
-    "@types/node": "^20.10.4",
+    "@types/node": "^20.10.5",
     "@types/react": "^18.2.45",
     "autoprefixer": "^10.4.16",
     "next": "^14.0.4",
