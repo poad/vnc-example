@@ -1542,8 +1542,8 @@ packages:
   /@bcoe/v8-coverage@0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  /@csstools/normalize.css@12.0.0:
-    resolution: {integrity: sha512-M0qqxAcwCsIVfpFQSlGN5XjXWu8l5JDZN+fPt1LeW5SZexQTgnaEvgXAY+CeygRw0EeppWHi12JxESWiWrB0Sg==}
+  /@csstools/normalize.css@12.1.1:
+    resolution: {integrity: sha512-YAYeJ+Xqh7fUou1d1j9XHl44BmsuThiTr4iNrgCQ3J27IbhXsxXDGZ1cXv8Qvs99d4rBbLiSKy3+WZiet32PcQ==}
     dev: false
 
   /@csstools/postcss-cascade-layers@1.1.1(postcss@8.4.32):
@@ -1552,9 +1552,9 @@ packages:
     peerDependencies:
       postcss: '>=8.4.31'
     dependencies:
-      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.0.14)
+      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.0.15)
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /@csstools/postcss-color-function@1.1.1(postcss@8.4.32):
@@ -1605,9 +1605,9 @@ packages:
     peerDependencies:
       postcss: '>=8.4.31'
     dependencies:
-      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.0.14)
+      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.0.15)
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /@csstools/postcss-nested-calc@1.0.0(postcss@8.4.32):
@@ -1690,13 +1690,13 @@ packages:
       postcss: 8.4.32
     dev: false
 
-  /@csstools/selector-specificity@2.2.0(postcss-selector-parser@6.0.14):
+  /@csstools/selector-specificity@2.2.0(postcss-selector-parser@6.0.15):
     resolution: {integrity: sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss-selector-parser: ^6.0.10
     dependencies:
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.56.0):
@@ -3418,19 +3418,19 @@ packages:
       acorn-walk: 7.2.0
     dev: false
 
-  /acorn-import-assertions@1.9.0(acorn@8.11.2):
+  /acorn-import-assertions@1.9.0(acorn@8.11.3):
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
     peerDependencies:
       acorn: ^8
     dependencies:
-      acorn: 8.11.2
+      acorn: 8.11.3
 
-  /acorn-jsx@5.3.2(acorn@8.11.2):
+  /acorn-jsx@5.3.2(acorn@8.11.3):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
       acorn: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
-      acorn: 8.11.2
+      acorn: 8.11.3
 
   /acorn-walk@7.2.0:
     resolution: {integrity: sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA==}
@@ -3448,8 +3448,8 @@ packages:
     hasBin: true
     dev: false
 
-  /acorn@8.11.2:
-    resolution: {integrity: sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==}
+  /acorn@8.11.3:
+    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -4420,7 +4420,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /css-declaration-sorter@6.4.1(postcss@8.4.32):
@@ -4440,7 +4440,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /css-loader@6.8.1(webpack@5.89.0):
@@ -5637,8 +5637,8 @@ packages:
     resolution: {integrity: sha512-oruZaFkjorTpF32kDSI5/75ViwGeZginGGy2NoOSg3Q9bnwlnmDm4HLnkl0RE3n+njDXR037aY1+x58Z/zFdwQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dependencies:
-      acorn: 8.11.2
-      acorn-jsx: 5.3.2(acorn@8.11.2)
+      acorn: 8.11.3
+      acorn-jsx: 5.3.2(acorn@8.11.3)
       eslint-visitor-keys: 3.4.3
 
   /esprima@1.2.2:
@@ -7746,7 +7746,7 @@ packages:
         optional: true
     dependencies:
       abab: 2.0.6
-      acorn: 8.11.2
+      acorn: 8.11.3
       acorn-globals: 6.0.0
       cssom: 0.4.4
       cssstyle: 2.3.0
@@ -8582,7 +8582,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-browser-comments@4.0.0(browserslist@4.22.2)(postcss@8.4.32):
@@ -8602,7 +8602,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
       postcss-value-parser: 4.2.0
     dev: false
 
@@ -8697,7 +8697,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-dir-pseudo-class@6.0.5(postcss@8.4.32):
@@ -8707,7 +8707,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-discard-comments@5.1.2(postcss@8.4.32):
@@ -8782,7 +8782,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-focus-within@5.0.4(postcss@8.4.32):
@@ -8792,7 +8792,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-font-variant@5.0.0(postcss@8.4.32):
@@ -8933,7 +8933,7 @@ packages:
       caniuse-api: 3.0.0
       cssnano-utils: 3.1.0(postcss@8.4.32)
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-minify-font-values@5.1.0(postcss@8.4.32):
@@ -8977,7 +8977,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-modules-extract-imports@3.0.0(postcss@8.4.32):
@@ -8997,7 +8997,7 @@ packages:
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.32)
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
       postcss-value-parser: 4.2.0
     dev: false
 
@@ -9008,7 +9008,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-modules-values@4.0.0(postcss@8.4.32):
@@ -9028,7 +9028,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-nesting@10.2.0(postcss@8.4.32):
@@ -9037,9 +9037,9 @@ packages:
     peerDependencies:
       postcss: '>=8.4.31'
     dependencies:
-      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.0.14)
+      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.0.15)
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-normalize-charset@5.1.0(postcss@8.4.32):
@@ -9140,7 +9140,7 @@ packages:
       browserslist: '>= 4'
       postcss: '>=8.4.31'
     dependencies:
-      '@csstools/normalize.css': 12.0.0
+      '@csstools/normalize.css': 12.1.1
       browserslist: 4.22.2
       postcss: 8.4.32
       postcss-browser-comments: 4.0.0(browserslist@4.22.2)(postcss@8.4.32)
@@ -9260,7 +9260,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-reduce-initial@5.1.2(postcss@8.4.32):
@@ -9299,11 +9299,11 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
-  /postcss-selector-parser@6.0.14:
-    resolution: {integrity: sha512-65xXYsT40i9GyWzlHQ5ShZoK7JZdySeOozi/tz2EezDo6c04q6+ckYMeoY7idaie1qp2dT5KoYQ2yky6JuoHnA==}
+  /postcss-selector-parser@6.0.15:
+    resolution: {integrity: sha512-rEYkQOMUCEMhsKbK66tbEU9QVIxbhN18YiniAwA7XQYTVBqrBy+P2p5JcdqsHgKM2zWylp8d7J6eszocfds5Sw==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -9328,7 +9328,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /postcss-value-parser@4.2.0:
@@ -10482,7 +10482,7 @@ packages:
     dependencies:
       browserslist: 4.22.2
       postcss: 8.4.32
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
     dev: false
 
   /sucrase@3.35.0:
@@ -10606,7 +10606,7 @@ packages:
       postcss-js: 4.0.1(postcss@8.4.32)
       postcss-load-config: 4.0.2(postcss@8.4.32)
       postcss-nested: 6.0.1(postcss@8.4.32)
-      postcss-selector-parser: 6.0.14
+      postcss-selector-parser: 6.0.15
       resolve: 1.22.8
       sucrase: 3.35.0
     transitivePeerDependencies:
@@ -10675,7 +10675,7 @@ packages:
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.5
-      acorn: 8.11.2
+      acorn: 8.11.3
       commander: 2.20.3
       source-map-support: 0.5.21
 
@@ -11110,7 +11110,7 @@ packages:
     engines: {node: '>= 10.13.0'}
     hasBin: true
     dependencies:
-      acorn: 8.11.2
+      acorn: 8.11.3
       acorn-walk: 8.3.1
       chalk: 4.1.2
       commander: 7.2.0
@@ -11234,8 +11234,8 @@ packages:
       '@webassemblyjs/ast': 1.11.6
       '@webassemblyjs/wasm-edit': 1.11.6
       '@webassemblyjs/wasm-parser': 1.11.6
-      acorn: 8.11.2
-      acorn-import-assertions: 1.9.0(acorn@8.11.2)
+      acorn: 8.11.3
+      acorn-import-assertions: 1.9.0(acorn@8.11.3)
       browserslist: 4.22.2
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.15.0
