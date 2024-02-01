@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@reach/portal": "^0.18.0",
-    "@types/node": "^20.11.13",
-    "@types/react": "^18.2.48",
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.51",
     "autoprefixer": "^10.4.17",
     "next": "^14.1.0",
     "postcss": "^8.4.33",
@@ -42,7 +42,7 @@
     "jest": "^29.7.0",
     "next-transpile-modules": "^10.0.1",
     "postcss": "^8.4.31",
-    "swc-loader": "^0.2.3",
+    "swc-loader": "^0.2.4",
     "ts-jest": "^29.1.2",
     "typescript": "^5.3.3"
   },
