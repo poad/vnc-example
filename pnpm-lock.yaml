@@ -16,8 +16,8 @@ dependencies:
     specifier: ^20.11.19
     version: 20.11.19
   '@types/react':
-    specifier: ^18.2.55
-    version: 18.2.55
+    specifier: ^18.2.56
+    version: 18.2.56
   autoprefixer:
     specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.35)
@@ -78,8 +78,8 @@ devDependencies:
     specifier: ^2.29.1
     version: 2.29.1(@typescript-eslint/parser@7.0.1)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
   eslint-plugin-jest:
-    specifier: ^27.8.0
-    version: 27.8.0(@typescript-eslint/eslint-plugin@7.0.1)(eslint@8.56.0)(jest@29.7.0)(typescript@5.3.3)
+    specifier: ^27.9.0
+    version: 27.9.0(@typescript-eslint/eslint-plugin@7.0.1)(eslint@8.56.0)(jest@29.7.0)(typescript@5.3.3)
   eslint-plugin-jsx-a11y:
     specifier: ^6.8.0
     version: 6.8.0(eslint@8.56.0)
@@ -2953,8 +2953,8 @@ packages:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
     dev: false
 
-  /@types/react@18.2.55:
-    resolution: {integrity: sha512-Y2Tz5P4yz23brwm2d7jNon39qoAtMMmalOQv6+fEFt1mT+FcM3D841wDpoUvFXhaYenuROCy3FZYqdTjM7qVyA==}
+  /@types/react@18.2.56:
+    resolution: {integrity: sha512-NpwHDMkS/EFZF2dONFQHgkPRwhvgq/OAvIaGQzxGSBmaeR++kTg6njr15Vatz0/2VcCEwJQFi6Jf4Q0qBu0rLA==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -3779,7 +3779,7 @@ packages:
       postcss: '>=8.4.31'
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001587
+      caniuse-lite: 1.0.30001588
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -4094,8 +4094,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001587
-      electron-to-chromium: 1.4.671
+      caniuse-lite: 1.0.30001588
+      electron-to-chromium: 1.4.673
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -4174,13 +4174,13 @@ packages:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001587
+      caniuse-lite: 1.0.30001588
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: false
 
-  /caniuse-lite@1.0.30001587:
-    resolution: {integrity: sha512-HMFNotUmLXn71BQxg8cijvqxnIAofforZOwGsxyXJ0qugTdspUF4sPSJ2vhgprHCB996tIDzEq1ubumPDV8ULA==}
+  /caniuse-lite@1.0.30001588:
+    resolution: {integrity: sha512-+hVY9jE44uKLkH0SrUTqxjxqNTOWHsbnQDIKjwkZ3lNTzUUVdBLBGXtj/q5Mp5u98r3droaZAewQuEDzjQdZlQ==}
 
   /case-sensitive-paths-webpack-plugin@2.4.0:
     resolution: {integrity: sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw==}
@@ -4623,8 +4623,8 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  /cssdb@7.10.0:
-    resolution: {integrity: sha512-yGZ5tmA57gWh/uvdQBHs45wwFY0IBh3ypABk5sEubPBPSzXzkNgsWReqx7gdx6uhC+QoFBe+V8JwBB9/hQ6cIA==}
+  /cssdb@7.11.0:
+    resolution: {integrity: sha512-YUVAJhjDcTZzVD5XE49l3PQtGE29vvhzaL1bM3BtkvSmIRJeYENdfn1dn5jauBI7BBF+IyyiBS+oSVx3Hz/Gaw==}
     dev: false
 
   /cssesc@3.0.0:
@@ -4997,8 +4997,8 @@ packages:
       jake: 10.8.7
     dev: false
 
-  /electron-to-chromium@1.4.671:
-    resolution: {integrity: sha512-UUlE+/rWbydmp+FW8xlnnTA5WNA0ZZd2XL8CuMS72rh+k4y1f8+z6yk3UQhEwqHQWj6IBdL78DwWOdGMvYfQyA==}
+  /electron-to-chromium@1.4.673:
+    resolution: {integrity: sha512-zjqzx4N7xGdl5468G+vcgzDhaHkaYgVcf9MqgexcTqsl2UHSCmOj/Bi3HAprg4BZCpC7HyD8a6nZl6QAZf72gw==}
 
   /emittery@0.10.2:
     resolution: {integrity: sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw==}
@@ -5094,7 +5094,7 @@ packages:
       string.prototype.trimstart: 1.0.7
       typed-array-buffer: 1.0.1
       typed-array-byte-length: 1.0.0
-      typed-array-byte-offset: 1.0.0
+      typed-array-byte-offset: 1.0.1
       typed-array-length: 1.0.4
       unbox-primitive: 1.0.2
       which-typed-array: 1.1.14
@@ -5610,8 +5610,8 @@ packages:
       - typescript
     dev: false
 
-  /eslint-plugin-jest@27.8.0(@typescript-eslint/eslint-plugin@7.0.1)(eslint@8.56.0)(jest@29.7.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-347hVFiu4ZKMYl5xFp0X81gLNwBdno0dl0CMpUMjwuAux9X/M2a7z+ab2VHmPL6XCT87q8nv1vaVzhIO4TE/hw==}
+  /eslint-plugin-jest@27.9.0(@typescript-eslint/eslint-plugin@7.0.1)(eslint@8.56.0)(jest@29.7.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-QIT7FH7fNmd9n4se7FFKHbsLKGQiw885Ds6Y/sxKgCZ6natwCsXdgPOADnYVxN2QrRweF0FZWbJ6S7Rsn7llug==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.0.0 || ^6.0.0 || ^7.0.0
@@ -8055,8 +8055,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /lilconfig@3.1.0:
-    resolution: {integrity: sha512-p3cz0JV5vw/XeouBU3Ldnp+ZkBjE+n8ydJ4mcwBrOiXXPqNlrzGBqWs9X4MWF7f+iKUBu794Y8Hh8yawiJbCjw==}
+  /lilconfig@3.1.1:
+    resolution: {integrity: sha512-O18pf7nyvHTckunPWCV1XUNXU1piu01y2b7ATJ0ppkUkk8ocqVWBrYjJBCwHDjD/ZWcfyrA0P4gKhzWGi5EINQ==}
     engines: {node: '>=14'}
     dev: false
 
@@ -8363,7 +8363,7 @@ packages:
       '@next/env': 14.1.0
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001587
+      caniuse-lite: 1.0.30001588
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
@@ -9020,7 +9020,7 @@ packages:
       ts-node:
         optional: true
     dependencies:
-      lilconfig: 3.1.0
+      lilconfig: 3.1.1
       postcss: 8.4.35
       yaml: 2.3.4
     dev: false
@@ -9365,7 +9365,7 @@ packages:
       css-blank-pseudo: 3.0.3(postcss@8.4.35)
       css-has-pseudo: 3.0.4(postcss@8.4.35)
       css-prefers-color-scheme: 6.0.3(postcss@8.4.35)
-      cssdb: 7.10.0
+      cssdb: 7.11.0
       postcss: 8.4.35
       postcss-attribute-case-insensitive: 5.0.2(postcss@8.4.35)
       postcss-clamp: 4.1.0(postcss@8.4.35)
@@ -11036,13 +11036,14 @@ packages:
       has-proto: 1.0.1
       is-typed-array: 1.1.13
 
-  /typed-array-byte-offset@1.0.0:
-    resolution: {integrity: sha512-RD97prjEt9EL8YgAgpOkf3O4IF9lhJFr9g0htQkm0rchFp/Vx7LW5Q8fSXXub7BXAODyUQohRMyOc3faCPd0hg==}
+  /typed-array-byte-offset@1.0.1:
+    resolution: {integrity: sha512-tcqKMrTRXjqvHN9S3553NPCaGL0VPgFI92lXszmrE8DMhiDPLBYLlvo8Uu4WZAAX/aGqp/T1sbA4ph8EWjDF9Q==}
     engines: {node: '>= 0.4'}
     dependencies:
       available-typed-arrays: 1.0.6
       call-bind: 1.0.7
       for-each: 0.3.3
+      gopd: 1.0.1
       has-proto: 1.0.1
       is-typed-array: 1.1.13
 
