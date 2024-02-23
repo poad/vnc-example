@@ -16,8 +16,8 @@ dependencies:
     specifier: ^20.11.20
     version: 20.11.20
   '@types/react':
-    specifier: ^18.2.57
-    version: 18.2.57
+    specifier: ^18.2.58
+    version: 18.2.58
   autoprefixer:
     specifier: ^10.4.17
     version: 10.4.17(postcss@8.4.35)
@@ -2953,8 +2953,8 @@ packages:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
     dev: false
 
-  /@types/react@18.2.57:
-    resolution: {integrity: sha512-ZvQsktJgSYrQiMirAN60y4O/LRevIV8hUzSOSNB6gfR3/o3wCBFQx3sPwIYtuDMeiVgsSS3UzCV26tEzgnfvQw==}
+  /@types/react@18.2.58:
+    resolution: {integrity: sha512-TaGvMNhxvG2Q0K0aYxiKfNDS5m5ZsoIBBbtfUorxdH4NGSXIlYvZxLJI+9Dd3KjeB3780bciLyAb7ylO8pLhPw==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -6404,7 +6404,7 @@ packages:
       he: 1.2.0
       param-case: 3.0.4
       relateurl: 0.2.7
-      terser: 5.27.2
+      terser: 5.28.0
     dev: false
 
   /html-webpack-plugin@5.6.0(webpack@5.90.3):
@@ -10067,7 +10067,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 2.79.1
       serialize-javascript: 4.0.0
-      terser: 5.27.2
+      terser: 5.28.0
     dev: false
 
   /rollup@2.79.1:
@@ -10824,11 +10824,11 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
-      terser: 5.27.2
+      terser: 5.28.0
       webpack: 5.90.3(@swc/core@1.4.2)
 
-  /terser@5.27.2:
-    resolution: {integrity: sha512-sHXmLSkImesJ4p5apTeT63DsV4Obe1s37qT8qvwHRmVxKTBH7Rv9Wr26VcAMmLbmk9UliiwK8z+657NyJHHy/w==}
+  /terser@5.28.0:
+    resolution: {integrity: sha512-UK1n2JZN6gqfwmjzcikRp+uF/7jdwPXO7M0k/Hnqxzj3T5POL4YBVrv5Y4MKixTzBq4OmH7FfEYRxcy/Eh7YhA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
