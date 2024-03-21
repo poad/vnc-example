@@ -13,9 +13,9 @@
     "@reach/portal": "^0.18.0",
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.67",
-    "autoprefixer": "^10.4.18",
+    "autoprefixer": "^10.4.19",
     "next": "^14.1.4",
-    "postcss": "^8.4.37",
+    "postcss": "^8.4.38",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-vnc": "^1.0.0",
@@ -44,7 +44,7 @@
     "postcss": "*",
     "swc-loader": "^0.2.6",
     "ts-jest": "^29.1.2",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.3"
   },
   "engines": {
     "npm": "use pnpm please!",
