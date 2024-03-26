@@ -12,7 +12,7 @@
   "dependencies": {
     "@reach/portal": "^0.18.0",
     "@types/node": "^20.11.30",
-    "@types/react": "^18.2.70",
+    "@types/react": "^18.2.71",
     "autoprefixer": "^10.4.19",
     "next": "^14.1.4",
     "postcss": "^8.4.38",
@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.1.4",
-    "@typescript-eslint/eslint-plugin": "^7.3.1",
-    "@typescript-eslint/parser": "^7.3.1",
+    "@typescript-eslint/eslint-plugin": "^7.4.0",
+    "@typescript-eslint/parser": "^7.4.0",
     "autoprefixer": "*",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
