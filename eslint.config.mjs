@@ -30,7 +30,7 @@ export default [
       '@next/next/no-duplicate-head': 'off',
       '@next/next/no-img-element': 'error',
       '@next/next/no-page-custom-font': 'off',
-      'react-hooks/exhaustive-dep': 'off',
+      'react-hooks/exhaustive-deps': 'off',
     },
   },
   {

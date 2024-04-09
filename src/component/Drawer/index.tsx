@@ -74,7 +74,7 @@ function Drawer({
     html.style.overflow = 'hidden';
     html.style.paddingRight = `${scrollbarWidth}px`;
 
-    // eslint-disable-next-line consistent-return
+     
     return (): void => {
       html.style.overflow = overflow;
       html.style.paddingRight = paddingRight;

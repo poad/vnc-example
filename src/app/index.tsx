@@ -72,7 +72,7 @@ function Home(): JSX.Element {
                       <option>ws</option>
                       <option>wss</option>
                     </select>
-                    {/* eslint-disable max-len */}
+                    { }
                     <input
                       type="text"
                       name="host"
@@ -108,7 +108,7 @@ function Home(): JSX.Element {
                     >
                       Connect
                     </button>
-                    {/* eslint-enable max-len */}
+                    { }
                   </div>
                 </div>
               </div>
