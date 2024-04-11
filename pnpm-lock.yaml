@@ -2517,8 +2517,8 @@ packages:
       rollup: 2.79.1
     dev: false
 
-  /@rushstack/eslint-patch@1.10.1:
-    resolution: {integrity: sha512-S3Kq8e7LqxkA9s7HKLqXGTGck1uwis5vAXan3FnU5yw1Ec5hsSGnq4s/UCaSqABPOnOTg7zASLyst7+ohgWexg==}
+  /@rushstack/eslint-patch@1.10.2:
+    resolution: {integrity: sha512-hw437iINopmQuxWPSUEvqE56NCPsiU8N4AYtfHmJFckclktzK9YQJieD3XkDCDH4OjL+C7zgPUh73R/nrcHrqw==}
 
   /@sinclair/typebox@0.24.51:
     resolution: {integrity: sha512-1P1OROm/rdubP5aFDSZQILU0vrLCJ4fvHt6EoqHEM+2D/G5MK3bIaymUKLit8Js9gbns5UyJnkP/TZROLw4tUA==}
@@ -4131,7 +4131,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001608
-      electron-to-chromium: 1.4.731
+      electron-to-chromium: 1.4.733
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
 
@@ -4834,8 +4834,8 @@ packages:
     resolution: {integrity: sha512-Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==}
     dev: false
 
-  /dedent@1.5.1:
-    resolution: {integrity: sha512-+LxW+KLWxu3HW3M2w2ympwtqPrqYRzU8fqi6Fhd18fBALe15blJPI/I4+UHveMVG6lJqB4JNd4UG0S5cnVHwIg==}
+  /dedent@1.5.3:
+    resolution: {integrity: sha512-NHQtfOOW68WD8lgypbLA5oT+Bt0xXJhiYvoR6SmmNXZfpzOGXwdKWmcwG8N7PwVVWV3eF/68nmD9BaJSsTBhyQ==}
     peerDependencies:
       babel-plugin-macros: ^3.1.0
     peerDependenciesMeta:
@@ -5051,8 +5051,8 @@ packages:
       jake: 10.8.7
     dev: false
 
-  /electron-to-chromium@1.4.731:
-    resolution: {integrity: sha512-+TqVfZjpRz2V/5SPpmJxq9qK620SC5SqCnxQIOi7i/U08ZDcTpKbT7Xjj9FU5CbXTMUb4fywbIr8C7cGv4hcjw==}
+  /electron-to-chromium@1.4.733:
+    resolution: {integrity: sha512-gUI9nhI2iBGF0OaYYLKOaOtliFMl+Bt1rY7VmEjwxOxqoYLub/D9xmduPEhbw2imE6gYkJKhIE5it+KE2ulVxQ==}
 
   /emittery@0.10.2:
     resolution: {integrity: sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw==}
@@ -5314,7 +5314,7 @@ packages:
         optional: true
     dependencies:
       '@next/eslint-plugin-next': 14.1.4
-      '@rushstack/eslint-patch': 1.10.1
+      '@rushstack/eslint-patch': 1.10.2
       '@typescript-eslint/parser': 6.21.0(eslint@9.0.0)(typescript@5.4.5)
       eslint: 9.0.0
       eslint-import-resolver-node: 0.3.9
@@ -5341,7 +5341,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.4
       '@babel/eslint-parser': 7.24.1(@babel/core@7.24.4)(eslint@9.0.0)
-      '@rushstack/eslint-patch': 1.10.1
+      '@rushstack/eslint-patch': 1.10.2
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@9.0.0)(typescript@5.4.5)
       '@typescript-eslint/parser': 5.62.0(eslint@9.0.0)(typescript@5.4.5)
       babel-preset-react-app: 10.0.1
@@ -7051,7 +7051,7 @@ packages:
       '@types/node': 20.12.7
       chalk: 4.1.2
       co: 4.6.0
-      dedent: 1.5.1
+      dedent: 1.5.3
       is-generator-fn: 2.1.0
       jest-each: 29.7.0
       jest-matcher-utils: 29.7.0
