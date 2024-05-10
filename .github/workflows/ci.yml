@@ -30,7 +30,7 @@ jobs:
         uses: poad/github-pull-request-auto-merge-enable-action@v2.1.0
         with:
           pull_request_number: ${{ github.event.pull_request.number }}
-          github_token: ${{ secrets.PERSONAL_TOKEN_FOR_GITHUB_ACTIONS }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.event.repository.name }}
           owner: ${{ github.repository_owner }}
           merge_method: SQUASH
@@ -43,19 +43,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        name: Install pnpm
-        id: pnpm-install
-        with:
-          version: latest
-          run_install: |
-            - recursive: true
-              args: [--no-frozen-lockfile]
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           check-latest: true
+
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          run_install: |
+            - recursive: true
+              args: [--no-frozen-lockfile]
 
       - name: Build
         env:
