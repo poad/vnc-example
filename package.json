@@ -24,8 +24,8 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.2.3",
-    "@typescript-eslint/eslint-plugin": "^7.12.0",
-    "@typescript-eslint/parser": "^7.12.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
     "autoprefixer": "*",
     "eslint": "^9.4.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -57,5 +57,5 @@
       "postcss@<8.4.31": ">=8.4.31"
     }
   },
-  "packageManager": "pnpm@9.2.0+sha512.98a80fd11c2e7096747762304106432b3ddc67dcf54b5a8c01c93f68a2cd5e05e6821849522a06fb76284d41a2660d5e334f2ee3bbf29183bf2e739b1dafa771"
+  "packageManager": "pnpm@9.3.0+sha512.ee7b93e0c2bd11409c6424f92b866f31d3ea1bef5fbe47d3c7500cdc3c9668833d2e55681ad66df5b640c61fa9dc25d546efa54d76d7f8bf54b13614ac293631"
 }
