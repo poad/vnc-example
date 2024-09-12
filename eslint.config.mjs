@@ -7,9 +7,6 @@ import stylisticTs from '@stylistic/eslint-plugin-ts';
 import stylisticJsx from '@stylistic/eslint-plugin-jsx';
 
 import tseslint from 'typescript-eslint';
-import { FlatCompat } from '@eslint/eslintrc';
-
-const compat = new FlatCompat();
 
 export default tseslint.config(
   {
@@ -49,7 +46,7 @@ export default tseslint.config(
         typescript: {},
       },
     },
-    // @ts-ignore
+    // @ts-expect-error ignore type errors
     rules: {
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs['core-web-vitals'].rules,
