@@ -9,6 +9,9 @@ import stylisticJsx from '@stylistic/eslint-plugin-jsx';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
+  eslint.configs.recommended,
+  ...tseslint.configs.strict,
+  ...tseslint.configs.stylistic,
   {
     ignores: [
       '**/*.d.ts',
@@ -21,11 +24,6 @@ export default tseslint.config(
       'out',
       '.storybook',
     ],
-  },
-  eslint.configs.recommended,
-  ...tseslint.configs.strict,
-  ...tseslint.configs.stylistic,
-  {
     files: ['src/**/*.{jsx,tsx}'],
     plugins: {
       '@next/next': nextPlugin,
@@ -58,8 +56,8 @@ export default tseslint.config(
       '@stylistic/jsx/jsx-indent': ['error', 2],
       'comma-dangle': ['error', 'always-multiline'],
       'arrow-parens': ['error', 'always'],
-      'semi': ['error', 'always'],
-      'quotes': ['error', 'single'],
+      semi: ['error', 'always'],
+      quotes: ['error', 'single'],
     },
   },
 );
