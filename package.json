@@ -13,9 +13,9 @@
   "dependencies": {
     "@reach/portal": "^0.18.0",
     "@types/node": "^22.10.1",
-    "@types/react": "^18.3.13",
+    "@types/react": "^18.3.14",
     "autoprefixer": "^10.4.20",
-    "next": "^15.0.3",
+    "next": "^15.0.4",
     "postcss": "^8.4.49",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -24,7 +24,7 @@
     "web-vitals": "^3.5.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^15.0.3",
+    "@next/bundle-analyzer": "^15.0.4",
     "@stylistic/eslint-plugin": "^2.11.0",
     "@stylistic/eslint-plugin-js": "^2.11.0",
     "@stylistic/eslint-plugin-jsx": "^2.11.0",
@@ -33,13 +33,13 @@
     "autoprefixer": "^10.4.20",
     "eslint": "^9.16.0",
     "eslint-config-import": "^0.13.0",
-    "eslint-config-next": "^15.0.3",
+    "eslint-config-next": "^15.0.4",
     "eslint-import-resolver-typescript": "^3.7.0",
     "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
     "postcss": "^8.4.45",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.17.0"
