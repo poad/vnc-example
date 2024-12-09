@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { JSX, useState } from 'react';
 import Head from 'next/head';
 import dynamic from 'next/dynamic';
 

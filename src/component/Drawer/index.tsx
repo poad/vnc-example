@@ -1,4 +1,4 @@
-import { ReactNode, useEffect, useRef } from 'react';
+import { JSX, ReactNode, useEffect, useRef } from 'react';
 
 /* You'll need to install @reach/portal which simplify creating portal*/
 import { Portal } from '@reach/portal';
@@ -74,7 +74,7 @@ function Drawer({
     html.style.overflow = 'hidden';
     html.style.paddingRight = `${scrollbarWidth}px`;
 
-     
+
     return (): void => {
       html.style.overflow = overflow;
       html.style.paddingRight = paddingRight;
