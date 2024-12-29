@@ -7,24 +7,11 @@ on:
 
   workflow_dispatch:
 
-permissions:
-  actions: read
-  checks: write
-  contents: none
-  deployments: none
-  id-token: write
-  issues: none
-  packages: none
-  pull-requests: write
-  repository-projects: none
-  security-events: write
-  statuses: write
-
 jobs:
   pnpm-base-test:
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [22.x]
 
     runs-on: ubuntu-latest
     steps:
@@ -43,9 +30,11 @@ jobs:
             - recursive: true
               args: [--no-frozen-lockfile, --strict-peer-dependencies]
 
+      - uses: oven-sh/setup-bun@v2
+
       - name: Build
         env:
           NEXT_PUBLIC_AUTH0_DOMAIN: test
           NEXT_PUBLIC_AUTH0_CLIENT_ID: test
           NEXT_PUBLIC_CALLBACK_URL: http://localhost:3000
-        run: pnpm lint --fix && pnpm build
+        run: bun run --bun lint-fix && bun run --bun build
