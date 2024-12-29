@@ -7,38 +7,11 @@ on:
 
   workflow_dispatch:
 
-permissions:
-  actions: read
-  checks: write
-  contents: none
-  deployments: none
-  id-token: write
-  issues: none
-  packages: none
-  pull-requests: write
-  repository-projects: none
-  security-events: write
-  statuses: write
-
 jobs:
-  configure:
-    runs-on: ubuntu-latest
-    if: github.actor != 'dependabot[bot]'
-    steps:
-      - name: Pull request auto merge enabler
-        if: github.event_name == 'pull_request' && github.actor != 'dependabot[bot]'
-        uses: poad/github-pull-request-auto-merge-enable-action@v2.1.0
-        with:
-          pull_request_number: ${{ github.event.pull_request.number }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ${{ github.event.repository.name }}
-          owner: ${{ github.repository_owner }}
-          merge_method: SQUASH
-
   pnpm-base-test:
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [22.x]
 
     runs-on: ubuntu-latest
     steps:
@@ -57,9 +30,11 @@ jobs:
             - recursive: true
               args: [--no-frozen-lockfile]
 
+      - uses: oven-sh/setup-bun@v2
+
       - name: Build
         env:
           NEXT_PUBLIC_AUTH0_DOMAIN: test
           NEXT_PUBLIC_AUTH0_CLIENT_ID: test
           NEXT_PUBLIC_CALLBACK_URL: http://localhost:3000
-        run: pnpm build
+        run: bun run --bun build

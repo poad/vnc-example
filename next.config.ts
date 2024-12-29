@@ -1,14 +1,13 @@
-// @ts-check
+import { NextConfig } from 'next';
+
 import withBundleAnalyzer from '@next/bundle-analyzer';
 const analyzer = withBundleAnalyzer({
-  enabled: import.meta.env?.ANALYZE === 'true',
+  enabled: process.env.ANALYZE === 'true',
 });
 
-/** @type {import('next').NextConfig} */
-const config = {
+const config: NextConfig = {
   output: 'export',
   reactStrictMode: true,
-  swcMinify: true
 };
 
 export default analyzer(config);
