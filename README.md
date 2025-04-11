@@ -1,3 +1,5 @@
+Move to <https://github.com/poad/next-examples/tree/main/vnc-example>
+
 # VNC Web Client
 
 ## Setup
